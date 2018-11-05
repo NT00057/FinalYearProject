@@ -287,6 +287,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 199b3887b7070480d9d432aebba65bd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collisionMask:
+    serializedVersion: 2
+    m_Bits: 512
   horizontalRayCount: 4
   verticalRayCount: 4
 --- !u!61 &856912698
