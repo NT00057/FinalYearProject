@@ -11,9 +11,9 @@ public class Player : MonoBehaviour
     float accelerationTimeGrounded = .1f;
     float moveSpeed = 6;
 
-    public Vector2 wallJumpClimb;
-    public Vector2 wallJumpOff;
-    public Vector2 wallLeap;
+    public Vector2 wallJumpClimb; //x=7.5, y=16
+    public Vector2 wallJumpOff; //x=8.5, y=7
+    public Vector2 wallLeap; //x=18, y=17
 
     public float wallSlideSpeedMax = 3;
     public float wallStickTime = .25f;
@@ -81,8 +81,7 @@ public class Player : MonoBehaviour
 
 
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
+        if (Input.GetKeyDown(KeyCode.Space)){
             if (wallSliding)
             {
                 if (wallDirX == input.x)
