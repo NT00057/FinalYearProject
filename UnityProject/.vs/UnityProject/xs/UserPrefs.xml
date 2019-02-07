@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RaycastController.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player.cs" Line="114" Column="2" />
-      <File FileName="Assets/Scripts/Controller2D.cs" Line="229" Column="2" />
+      <File FileName="Assets/Scripts/Player.cs" Line="123" Column="2" />
+      <File FileName="Assets/Scripts/Controller2D.cs" Line="44" Column="29" />
+      <File FileName="Assets/Scripts/CameraFollow.cs" Line="62" Column="6" />
+      <File FileName="Assets/Scripts/RaycastController.cs" Line="61" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
